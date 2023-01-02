@@ -1,0 +1,32 @@
+2022-09-14 16:03:14,383 [restartedMain] INFO  com.narola.SpringBootAppApplication                - Starting SpringBootAppApplication using Java 15.0.2 on C100-99 with PID 2436 (D:\intelij\SpringBootApp\target\classes started by bvishal in D:\intelij\SpringBootApp)
+2022-09-14 16:03:14,383 [background-preinit] INFO  o.h.validator.internal.util.Version                - HV000001: Hibernate Validator 6.2.4.Final
+2022-09-14 16:03:14,387 [restartedMain] INFO  com.narola.SpringBootAppApplication                - The following 1 profile is active: "dev"
+2022-09-14 16:03:14,465 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor    - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-09-14 16:03:14,466 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor    - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-09-14 16:03:15,418 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-09-14 16:03:15,506 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Finished Spring Data repository scanning in 70 ms. Found 2 JPA repository interfaces.
+2022-09-14 16:03:16,255 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat initialized with port(s): 8080 (http)
+2022-09-14 16:03:16,267 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           - Initializing ProtocolHandler ["http-nio-8080"]
+2022-09-14 16:03:16,267 [restartedMain] INFO  org.apache.catalina.core.StandardService           - Starting service [Tomcat]
+2022-09-14 16:03:16,268 [restartedMain] INFO  org.apache.catalina.core.StandardEngine            - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-14 16:03:16,531 [restartedMain] INFO  org.apache.jasper.servlet.TldScanner               - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2022-09-14 16:03:16,541 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring embedded WebApplicationContext
+2022-09-14 16:03:16,542 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     - Root WebApplicationContext: initialization completed in 2075 ms
+2022-09-14 16:03:16,694 [restartedMain] INFO  o.hibernate.jpa.internal.util.LogHelper            - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-09-14 16:03:16,744 [restartedMain] INFO  org.hibernate.Version                              - HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-09-14 16:03:16,899 [restartedMain] INFO  org.hibernate.annotations.common.Version           - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-09-14 16:03:17,011 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Starting...
+2022-09-14 16:03:17,333 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Start completed.
+2022-09-14 16:03:17,351 [restartedMain] INFO  org.hibernate.dialect.Dialect                      - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-09-14 16:03:18,206 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator                 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-09-14 16:03:18,216 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-09-14 16:03:18,851 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain               - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@34cdaf60, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4fbf1d94, org.springframework.security.web.context.SecurityContextPersistenceFilter@2d134e1d, org.springframework.security.web.header.HeaderWriterFilter@2ed56739, org.springframework.security.web.authentication.logout.LogoutFilter@50ccaa39, com.narola.security.JwtAuthenticationFilter@28e111af, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3096e202, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5501319e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@24c96aaf, org.springframework.security.web.session.SessionManagementFilter@782bce76, org.springframework.security.web.access.ExceptionTranslationFilter@1e33366d, org.springframework.security.web.access.intercept.AuthorizationFilter@50e7c70f]
+2022-09-14 16:03:18,910 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-09-14 16:03:19,065 [restartedMain] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping              - Adding welcome page template: index
+2022-09-14 16:03:19,296 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer                 - LiveReload server is running on port 35729
+2022-09-14 16:03:19,319 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           - Starting ProtocolHandler ["http-nio-8080"]
+2022-09-14 16:03:19,347 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat started on port(s): 8080 (http) with context path ''
+2022-09-14 16:03:19,359 [restartedMain] INFO  com.narola.SpringBootAppApplication                - Started SpringBootAppApplication in 5.462 seconds (JVM running for 7.374)
+2022-09-14 16:07:10,646 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-09-14 16:07:10,650 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Shutdown initiated...
+2022-09-14 16:07:10,661 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Shutdown completed.
